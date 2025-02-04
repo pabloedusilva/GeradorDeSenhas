@@ -1,10 +1,10 @@
 # 🔐 Gerador De Senhas
 
-# Descrição
+# 📌 Descrição
 
 Este projeto é um gerador de senhas simples, desenvolvido em C#, que permite ao usuário escolher diferentes tipos de senhas e especificar o tamanho desejado. O programa também salva a senha gerada em um arquivo de texto.
 
-# Funcionalidades
+# ⚙️ Funcionalidades
 
 **Geração de senhas com diferentes critérios:**
 
@@ -15,14 +15,14 @@ Este projeto é um gerador de senhas simples, desenvolvido em C#, que permite ao
 - [x] Opção para salvar a senha gerada em um arquivo de texto (senha.txt).
 - [x] Interface de console colorida para uma melhor experiência do usuário.
 
-# Requisitos
+# 📌 Requisitos
 
  - [x] **.NET Framework ou .NET Core/5/6 (dependendo de sua versão do C#).**
 [Download .NET SDK](https://dotnet.microsoft.com/download)
 - [x] **Visual Studio Code.**
 [Download Visual Studio Code](https://code.visualstudio.com/download)
 
-# Como Usar:
+# 📌 Como Usar:
 1. Clone o repositório ou baixe o arquivo Program.cs para o seu computador.
 2. Abra o terminal ou o prompt de comando e navegue até o diretório onde o arquivo Program.cs está salvo.
 3. Execute o programa:
@@ -41,25 +41,25 @@ A senha gerada será exibida no console e também será salva no arquivo **senha
 
 * **Sair:**  Para sair, pressione qualquer tecla quando solicitado.
 
-# Aplicativos Utilizados
+# 🔧 Aplicativos Utilizados
 
  - [x] **.NET Framework ou .NET Core/5/6 (dependendo de sua versão do C#).**
 [Download .NET SDK](https://dotnet.microsoft.com/download)
 - [x] **Visual Studio Code.**
 [Download Visual Studio Code](https://code.visualstudio.com/download)
 
-# Estrutura do Código
+# 🔨 Estrutura do Código
 
 * O código utiliza a biblioteca System.IO para manipulação de arquivos.
 * O método GerarSenha é responsável por criar a senha baseada na escolha do usuário e no tamanho especificado.
 * As senhas geradas são armazenadas em um arquivo senha.txt com a data e hora da criação.
 
-# Observações
+# 🔍 Observações
 
 * Certifique-se de ter permissões de escrita no diretório onde o programa está sendo executado, pois o arquivo senha.txt será criado ou atualizado nesse local.
 O programa verifica se a entrada do usuário é válida e exibe mensagens apropriadas para entradas inválidas.
 
-# Conclusão
+# ✅ Conclusão
 
 * Este gerador de senhas é uma ferramenta útil para quem precisa de senhas seguras e variadas. Sinta-se à vontade para modificar e expandir o código conforme suas necessidades!
 
