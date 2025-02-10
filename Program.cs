@@ -8,7 +8,7 @@ class Program
         Console.ForegroundColor = ConsoleColor.White;
         Console.BackgroundColor = ConsoleColor.DarkBlue;
         Console.WriteLine("+===========================================+");
-        Console.WriteLine("|Escolha uma opção para gerar sua senha:    |");
+        Console.WriteLine("|  Escolha uma opção para gerar sua senha:  |");
         Console.WriteLine("+===========================================+\n");
         Console.ResetColor();
 
